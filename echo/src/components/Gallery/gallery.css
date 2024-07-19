@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+.box{
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.box img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.inputSearch{
+    outline: none;
+    border: 2px solid #8f8d8d;
+    background-color: rgb(170, 246, 221);
+    cursor: pointer;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    padding: 0px 10px;
+}
